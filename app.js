@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://huss1962:Husain%405253@cluster0.ntg8t.mongodb.net/todolistDB?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://huss1962:Husain5253@cluster0.ntg8t.mongodb.net/todolistDB?retryWrites=true&w=majority");
 const itemsSchema = new mongoose.Schema({
     name: String
 });
